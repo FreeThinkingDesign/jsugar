@@ -8,7 +8,6 @@
     "check-coverage": "istanbul check-coverage --statements 95 --branches 75 --functions 100 --lines 95",
     "display-coverage": "opener ./coverage/lcov-report/index.html",
     "report-coverage": "cat ./coverage/lcov.info | coveralls",
-    "precommit": "npm run test && npm run check-coverage"
   },
   "repository": {
     "type": "git",
